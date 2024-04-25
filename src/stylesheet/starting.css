@@ -11,14 +11,17 @@
 .utext h1{
     width:70vh;
     margin-bottom:10vh ;
+    font-family: "lato";
 }
 .utext h6{
     width:20vh;
+    font-family: "oswald";
 }
 .rtext{
     margin-top: 20vh;
     margin-left: 30vh;
     height: fit-content;
+    font-family: "madimi one";
 }
 .boxxy{
     display: flex;
@@ -28,10 +31,18 @@
     justify-content: center;
     align-items: center;
 }
+.boxxy img{
+    height:fit-content;
+}
 .boxxy p{
     font-size: small;
-    width:40vh;
+    width:60vh;
+    font-family: "oswald";
+    font-weight: 400;
+    font-size: x-large;
 }
+
 .rtext h4{
-    margin-bottom: 15vh;
+    margin-bottom: 9vh;
+    width:34vw;
 }

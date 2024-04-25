@@ -18,7 +18,7 @@
   margin-left: 9vw;
 }
 .organic {
-  background-image: url("../assets/organic.jpg");
+  background-image: url("../assets/wheat.jpg");
   background-size: cover;
   height: 35vh;
   width: 15vw;
@@ -41,15 +41,25 @@
   margin-left: 9vw;
   text-align: center;
   width: 15vw;
+  font-size:xx-large;
+  font-family: "lato";
 }
 .ft p {
   margin-left: 9vw;
   text-align: center;
   width: 15vw;
+  font-family: "oswald";
 }
 .ft button {
     margin-top: 2vh;
     margin-left: 12vw;
     text-align: center;
     width: 8vw;
+    font-weight: 700;
+    font-family: "oswald";
+    background-color: rgb(18, 238, 18);
+    color: white;
   }
+.wtext h2{
+  font-family: "oswald";
+}

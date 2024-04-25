@@ -17,12 +17,92 @@
     color: yellowgreen;
 }
 .why{
-    width: 50vw;
+    display: flex;
+    flex-direction: row;
     height: 90vh;
-    background-color: rgba(245,240,234,255);
 }
-.why h5{
+.lwhy {
+    background-color: rgba(245,240,234,255);
+    height: 90vh;
+    color: black; 
+    width: 50vw;
+}
+.lwhy h5{
     position: absolute;
     margin-top: 20vh;
     margin-left: 9vw;
+    font-family: "oswald";
 }
+.lwhy h1{
+    /* position: absolute; */
+    /* margin-top: vh; */
+    margin-left: 9vw;
+    width: 30vw;
+}
+.lwhy ol {
+    margin-top: 25vh;
+}
+.lwhy ol li {
+    margin-bottom: 2vh; /* Adjust as needed */
+    margin-left: 9vw; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
+    list-style-type: upper-roman;
+    font-size: xx-large;
+}
+
+.lwhy h4 {
+    font-size: small;
+    font-weight: 700;
+    font-family: "lato";
+    margin-top: 0; /* Adjust as needed */
+    margin-left: 9vw; /* Adjust as needed */
+    margin-bottom: 5vh;
+}
+
+.di{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 9vw;
+    background-color: rgb(162, 240, 6);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10%;
+}
+.di:hover{
+    background-color: yellow;
+}
+.wheat{
+    /* margin-left:50vw; */
+    margin-top: 20vh;
+    height: 70vh;
+    width: 30vw;
+    background-image: url('../assets/wheat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.high{
+        flex-direction: column;
+        display: flex;
+        width: 80vw;
+        height: 20vh;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        background-color:yellow;
+        color:rgb(8, 66, 15);
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .high p {
+        font-size:x-large;
+        margin-left:3vw;
+    }
+    .high button{
+    position: absolute;
+    margin-left: 65vw;
+    color: white;
+    background-color: rgb(8, 66, 15);
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    }

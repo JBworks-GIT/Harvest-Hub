@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/starting.css";
 import illy from "../assets/illy.svg";
+
 function Starting() {
   return (
     <div className="dstart">
@@ -18,18 +19,18 @@ function Starting() {
       <div className="rtext">
         {" "}
         <h4>
-          Lorem ipsum dolor sit amet consecteturcommodi aliquid totam temporibus
-          nisi porro! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Dolorem praesentium numquam laborum voluptates totam quod quaerat
-          voluptatibus enim nam, voluptatem quam aspernatur minus illum, facere,
-          accusantium aperiam adipisci perferendis deleniti.
+          Here is One of the examples of farms from where our  Products are based.
         </h4>{" "}
-        <video width="520" height="200" controls>
-          <source
-            src={"https://www.youtube.com/watch?v=r6YLSACb-iQ"}
-            type="video/ogg"
-          />
-        </video>
+        <iframe
+          width="430"
+          height="215"
+          src="https://www.youtube.com/embed/aRxymTETvXk?si=6xya2SoqqlDtLlwN"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );
