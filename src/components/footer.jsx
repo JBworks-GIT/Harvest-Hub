@@ -61,8 +61,8 @@ function Footer() {
           <p>Services</p>
           <p>Products</p>
           <p>Join our team</p>
-          <p>Partner with us</p>
         </div>
+          <p>Partner with us</p>
         <div className="backdrop"></div>
       </footer>
     </>
