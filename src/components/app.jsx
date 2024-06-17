@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Im
 import Shop from "./Shop";
 import Landing from "./landing.jsx";
 import Contact from "./contact.jsx"
-import Footer from "./footer.jsx";
+import Footer from    "./footer.jsx";
 const App = () => {
   return (
     <>
